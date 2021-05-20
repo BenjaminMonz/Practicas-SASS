@@ -1,10 +1,12 @@
-@use 'body';
-@use 'nav';
-@use 'main';
-@use 'footer';
-@use 'color';
+@use 'components/conteinermain';
+@use 'components/body';
+@use 'components/nav';
+@use 'components/main';
+@use 'components//footer';
+@use 'components/color';
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: color.$background-color;
 }

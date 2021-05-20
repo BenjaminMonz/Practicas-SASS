@@ -1,0 +1,129 @@
+    @use 'color';
+    main {
+        section.sandia {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            background-color: color.$color-grisoscuro;
+            .part-izq-sandia {
+                background-color: color.$color-grisoscuro;
+                /*parche 2.0*/
+                img {
+                    background-color: color.$color-grisoscuro;
+                    /*parche 2.0*/
+                }
+            }
+            .cont-der-sandia {
+                width: 40%;
+                p {
+                    padding-top: 50px;
+                    background-color: color.$color-negro;
+                    color: color.$color-blanco;
+                    text-align: center;
+                }
+                h2 {
+                    background-color: color.$color-grisoscuro;
+                    /*parche 2.0*/
+                    color: color.$color-blanco;
+                    padding-top: 20px;
+                    text-align: end;
+                }
+            }
+        }
+        section.frutilla {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            background-color: color.$color-rosa;
+            .cont-izq-frutilla {
+                width: 40%;
+                p {
+                    background-color: color.$color-grisclaro;
+                    color: color.$color-blanco;
+                    padding-top: 35px;
+                    text-align: center;
+                }
+                h2 {
+                    background-color: color.$color-rosa;
+                    /*parche turbo 2.0*/
+                    padding-top: 15px;
+                    color: color.$color-blanco;
+                }
+            }
+            .part-der-frutilla {
+                background-color: color.$color-rosa;
+                /*parche 2.0*/
+                img {
+                    background-color: color.$color-rosa;
+                    /*Parche 2.0*/
+                }
+            }
+        }
+        section.pera {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            background-color: color.$color-amarillo;
+            .part-izq-pera {
+                background-color: color.$color-amarillo;
+                /*parche 2.0*/
+                img {
+                    background-color: color.$color-amarillo;
+                    /*parche 2.0*/
+                }
+            }
+            .cont-der-pera {
+                width: 40%;
+                p {
+                    padding-top: 50px;
+                    background-color: color.$color-grisclaro;
+                    color: color.$color-blanco;
+                    text-align: center;
+                }
+                h2 {
+                    background-color: color.$color-amarillo;
+                    /*parche 2.0*/
+                    color: color.$color-blanco;
+                    padding-top: 20px;
+                    text-align: end;
+                }
+            }
+        }
+        section.banana {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            background-color: color.$color-naranja;
+            .cont-izq-banana {
+                width: 40%;
+                p {
+                    background-color: color.$color-grisclaro;
+                    color: color.$color-blanco;
+                    padding-top: 35px;
+                    text-align: center;
+                }
+                h2 {
+                    background-color: color.$color-naranja;
+                    /*parche turbo 2.0*/
+                    padding-top: 20px;
+                    color: color.$color-blanco;
+                }
+            }
+            .part-der-banana {
+                background-color: color.$color-naranja;
+                /*parche 2.0*/
+                img {
+                    background-color: color.$color-naranja;
+                    /*Parche 2.0*/
+                }
+            }
+        }
+    }

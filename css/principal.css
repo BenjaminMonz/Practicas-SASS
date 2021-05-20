@@ -1,5 +1,209 @@
+.conteinermain {
+  width: 65%;
+  margin: auto;
+}
+
+body {
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  height: 155px;
+  position: relative;
+}
+nav img {
+  position: absolute;
+}
+nav .part-superior {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #01BDBE;
+  height: 75px;
+}
+nav .part-superior ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: #01BDBE;
+  /*No se porque carajo no anda biem, odio al mundo*/
+}
+nav .part-superior ul li {
+  list-style: none;
+  background-color: #01BDBE;
+  /*parche 2.0*/
+  margin: 0px 30px 5px 30px;
+}
+nav .part-superior ul li a {
+  background-color: #01BDBE;
+  /*parche 2.0*/
+  text-decoration: none;
+  color: white;
+}
+nav .part-inferior {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+nav .part-inferior h1 {
+  font-size: 40px;
+  background-color: white;
+  /*Parche 2.0*/
+}
+
+main section.sandia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #313131;
+}
+main section.sandia .part-izq-sandia {
+  background-color: #313131;
+  /*parche 2.0*/
+}
+main section.sandia .part-izq-sandia img {
+  background-color: #313131;
+  /*parche 2.0*/
+}
+main section.sandia .cont-der-sandia {
+  width: 40%;
+}
+main section.sandia .cont-der-sandia p {
+  padding-top: 50px;
+  background-color: #0F0F0F;
+  color: white;
+  text-align: center;
+}
+main section.sandia .cont-der-sandia h2 {
+  background-color: #313131;
+  /*parche 2.0*/
+  color: white;
+  padding-top: 20px;
+  text-align: end;
+}
+main section.frutilla {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #FF577E;
+}
+main section.frutilla .cont-izq-frutilla {
+  width: 40%;
+}
+main section.frutilla .cont-izq-frutilla p {
+  background-color: rgba(10, 10, 10, 0.664);
+  color: white;
+  padding-top: 35px;
+  text-align: center;
+}
+main section.frutilla .cont-izq-frutilla h2 {
+  background-color: #FF577E;
+  /*parche turbo 2.0*/
+  padding-top: 15px;
+  color: white;
+}
+main section.frutilla .part-der-frutilla {
+  background-color: #FF577E;
+  /*parche 2.0*/
+}
+main section.frutilla .part-der-frutilla img {
+  background-color: #FF577E;
+  /*Parche 2.0*/
+}
+main section.pera {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #FAD431;
+}
+main section.pera .part-izq-pera {
+  background-color: #FAD431;
+  /*parche 2.0*/
+}
+main section.pera .part-izq-pera img {
+  background-color: #FAD431;
+  /*parche 2.0*/
+}
+main section.pera .cont-der-pera {
+  width: 40%;
+}
+main section.pera .cont-der-pera p {
+  padding-top: 50px;
+  background-color: rgba(10, 10, 10, 0.664);
+  color: white;
+  text-align: center;
+}
+main section.pera .cont-der-pera h2 {
+  background-color: #FAD431;
+  /*parche 2.0*/
+  color: white;
+  padding-top: 20px;
+  text-align: end;
+}
+main section.banana {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #FF642C;
+}
+main section.banana .cont-izq-banana {
+  width: 40%;
+}
+main section.banana .cont-izq-banana p {
+  background-color: rgba(10, 10, 10, 0.664);
+  color: white;
+  padding-top: 35px;
+  text-align: center;
+}
+main section.banana .cont-izq-banana h2 {
+  background-color: #FF642C;
+  /*parche turbo 2.0*/
+  padding-top: 20px;
+  color: white;
+}
+main section.banana .part-der-banana {
+  background-color: #FF642C;
+  /*parche 2.0*/
+}
+main section.banana .part-der-banana img {
+  background-color: #FF642C;
+  /*Parche 2.0*/
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #0F0F0F;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+footer h2 {
+  font-size: 35px;
+  background-color: #0F0F0F;
+  color: white;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #C0EBF2;
 }/*# sourceMappingURL=principal.css.map */

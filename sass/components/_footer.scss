@@ -1,0 +1,16 @@
+@use 'color';
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: color.$color-negro;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    h2 {
+        font-size: 35px;
+        background-color: color.$color-negro;
+        color: color.$color-blanco;
+    }
+}
